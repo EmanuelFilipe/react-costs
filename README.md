@@ -70,4 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### npm install json-server
-irá criar um banco de dados fake para consumo de api
+irá criar um backend fake para consumo de uma api
+
+### npm install uuid
+cria ids unicos 
