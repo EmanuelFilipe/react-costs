@@ -74,3 +74,6 @@ irá criar um backend fake para consumo de uma api
 
 ### npm install uuid
 cria ids unicos 
+
+### npm run backend 
+execute esse comando em um novo terminal. Irá ler os dados do banco de dados em json fake na porta 5000
