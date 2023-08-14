@@ -24,7 +24,7 @@ function NewProject() {
         .then((data) => {
             console.log(data)
             //realiza um push no db.json/projects
-            history('/projects', {message: 'Projeto criado com sucesso!'})
+            history('/projects', {state: {message: 'Projeto criado com sucesso!'}})
         })
         .catch((error) => console.error(error))
     }
