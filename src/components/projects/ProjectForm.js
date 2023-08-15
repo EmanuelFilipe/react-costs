@@ -5,6 +5,7 @@ import SubmitButton from '../form/SubmitButton'
 import styles from './ProjectForm.module.css'
 
 function ProjectForm({ btnText, handleSubmit, projectData }) {
+    
     const [categories, setCategories] = useState([])
     // se tiver projectData o useState seta esse obj, senão irá inicializar um objeto vazio
     const [project, setProject] = useState(projectData || {})
@@ -16,10 +17,10 @@ function ProjectForm({ btnText, handleSubmit, projectData }) {
                 "Content-Type": "application/json"
             },
         })
-        .then(resp => resp.json())
-        .then(data => setCategories(data))
+        .then((resp) => resp.json())
+        .then((data) => setCategories(data))
         .catch(error => console.error(error))
-    }, []) // o [] é o valor inicial desse hook
+    }, []) // o [] é o valor inicial, ou seja, as options vazias
 
     // uma const que executa uma arrow-function
     const submit = (e) => {
@@ -55,7 +56,7 @@ function ProjectForm({ btnText, handleSubmit, projectData }) {
               handleOnChange={handleChange}
               value={project.budget ? project.budget : ''}
             />
-            <Select name="category_id" text="Selecione a categoria" 
+            <Select name="category_id" text="Selecione uma categoria" 
               options={categories} 
               handleOnChange={handleCategory} 
               value={project.category ? project.category.id : ''}
