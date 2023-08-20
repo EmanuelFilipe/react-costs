@@ -21,28 +21,6 @@
       "cost": 0,
       "services": [],
       "id": 2
-    },
-    {
-      "name": "meu projeto 3",
-      "budget": "4000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "projeto 4",
-      "budget": "100",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
     }
   ],
   "categories": [
