@@ -41,7 +41,7 @@ function Projects() {
         message = location.state.message
     }
     
-    function RemoveProject(id) {
+    function removeProject(id) {
         fetch(`http://localhost:5000/projects/${id}`, {
             method: "DELETE",
             headers: {
@@ -75,7 +75,7 @@ function Projects() {
                          name={project.name}
                          budget={project.budget}
                          category={project?.category?.name}
-                         handleRemove={RemoveProject}
+                         handleRemove={removeProject}
                         />
                     ))
                 }
