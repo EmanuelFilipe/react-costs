@@ -4,11 +4,18 @@
       "name": "projeto teste atualizado",
       "budget": "1300",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 99,
+      "services": [
+        {
+          "name": "novo serviço",
+          "cost": "99",
+          "description": "teste",
+          "id": "5dfb7761-4f50-4c35-9b27-faa034016e44"
+        }
+      ],
       "id": 1
     },
     {
@@ -18,8 +25,21 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 300,
+      "services": [
+        {
+          "name": "Produto A",
+          "cost": "100",
+          "description": "teste1",
+          "id": "d4143325-bb00-4f7a-803f-137be0b63e9c"
+        },
+        {
+          "name": "teste2",
+          "cost": "200",
+          "description": "teste 23",
+          "id": "5f4e15af-0a67-4442-9db9-d65ddb0dc37d"
+        }
+      ],
       "id": 2
     }
   ],
